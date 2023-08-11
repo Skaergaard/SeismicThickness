@@ -8,7 +8,7 @@ The file “espesor_sismogenico.yml” contains the necessary libreries to run t
 The following files need to be on the directory where the code will be executed: 
 -"slab.txt" Slab2.0  model (Hayes, 2018) https://doi.org/10.5066/F7PV6JNV. An example file is provided with the code. 
 -"moho.txt" File with the moho. An example file is provided with the code. 
--A .csv file containing the seismic catalogue. It must have columns with event latitude, longitude, depth (=profundidad), magnitude, vertical and horizontal error. An example catalogue is provided with the code.  
+-A .csv file containing the seismic catalogue. It must have columns with event latitude, longitude, depth (=profundidad), magnitude, vertical and horizontal error. An example catalogue is provided with the code. 
 Column names must be: 
 latitud
 longitud
@@ -17,7 +17,10 @@ magnitud
 err_prof
 err_h
 These columns must only contain numerical data and depth must be in positive kilometers.
- 
+
+Note:
+The code will not run on the example files provided, they are only meant to show necesary file structure 
+
 #######################################################################################
 
 INSTRUCTIONS: 
